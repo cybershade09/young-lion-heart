@@ -1,0 +1,13 @@
+#navbar{
+    background-color: #356AF3;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    max-height: 160px;
+}
+
+.logo{
+    border-radius:50%;
+    width:20px;
+}
