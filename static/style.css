@@ -53,7 +53,8 @@ li{
 }
 
 .title{
-    background-image: "../static/banner.jpg";
+    background-image: url("./banner.jpg");
+    height:25em;
 }
 
 
@@ -71,4 +72,22 @@ li{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.images{
+    height:20em;
+    width:20em;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+
+
+
+
+h1, h2, h3, h4, p,a {
+    transition-duration: 0.5s;
+}
+p:hover, h1:hover, h2:hover, h3:hover, h4:hover, a:hover{
+    transform: translateY(5px);
 }
