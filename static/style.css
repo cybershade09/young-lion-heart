@@ -1,3 +1,7 @@
+html{
+    width:100vw;
+}
+
 body{
     margin: 0;
     font-family: "Montserrat", sans-serif;
@@ -50,11 +54,14 @@ li{
 .title h1,.title h2{
     margin:0px;
     text-align: center;
+    color: white;
+    vertical-align: bottom;
 }
 
+
 .title{
-    background-image: url("./banner.jpg");
-    height:25em;
+    background-image: linear-gradient(#ffffff80,#00000080),url("./banner.jpg");
+    min-height:25em;
 }
 
 
@@ -81,7 +88,16 @@ li{
     border-radius:50%;
 }
 
+.leaders_table{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    background-color: var(--yellow);
+}
 
+td{
+    width: 25vw;
+}
 
 
 
@@ -90,4 +106,20 @@ h1, h2, h3, h4, p,a {
 }
 p:hover, h1:hover, h2:hover, h3:hover, h4:hover, a:hover{
     transform: translateY(5px);
+}
+
+.name{
+    font-weight: bold;
+}
+
+.position{
+    font-style: italic;
+    font-weight: 400;
+}
+
+footer{
+    padding:0px;
+    margin:0px;
+    background-color:var(--blue);
+    height:10vh;
 }
